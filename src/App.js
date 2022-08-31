@@ -3,29 +3,37 @@ import './App.css';
 import NavBar from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
-import Productos from './components/Productos';
-import ListadoDeProductos from './components/ListadoDeProductos';
+import Productos from './components/Producto';
 import CartWidget from './components/CartWidget';
+import ListadoDeProductosLayout from './components/ListadoDeProductosLayout';
+
+
+
 
 
 function App() {
   
-  let producto1 = {id: 100, name: "Camiseta 2022", price: 10000}
-  let producto2 = { id: 101, name: "Camiseta 2000", price: 12500 }
-  let producto3 = { id: 102, name: "Pantalon 2022", price: 8000 }
+  
+  
+  
+  
+  let producto1 = { id: 100, name: 'zapato nike', precio: 100 }
+  let producto2 = { id: 101, name: 'zapato nike', precio: 100 }
+  let producto3 = { id: 102, name: 'zapato nike', precio: 100 }
 
+ 
+  
 
   return (
     <div className='App'>
       <NavBar />
-
-      <ListadoDeProductos />
       
-      <Productos producto={producto1} color="coral"/>
-      <Productos producto={producto2} color="red" />
-      <Productos producto={producto3} color="aqua" />
-
-      <CartWidget />
+      <ListadoDeProductosLayout />      
+      <Productos item={producto1} color="coral"/>
+      <Productos item={producto2} color="red" />
+      <Productos item={producto3} color="aqua" />
+    
+      
       <Footer />
         
       </div>
