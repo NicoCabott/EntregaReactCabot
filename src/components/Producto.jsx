@@ -40,6 +40,7 @@ export default function Producto({item, color}) {
             />
           <p>Precio: ${item.precio}</p>
           
+          
       </div>        
   )
 }

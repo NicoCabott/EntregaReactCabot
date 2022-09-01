@@ -28,20 +28,3 @@ export default function ItemCount({stock, handleAumentar, handleRestar, onAdd, c
 }
 
 
-// <h2>Contador: {contador}</h2>
-//           <button onClick={() => {
-//               setContador(contador + 1)
-//           }}>
-//               Sumar contador
-//           </button>
-//           <button onClick={() => {
-//               setContador(contador - 1)
-//           }}>
-//               Restar contador
-//           </button>
-
-//           <button onClick={() => {
-//             onAdd()
-//           }}>
-//             Agregar al carrito
-//         </button>
