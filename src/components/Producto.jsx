@@ -31,16 +31,12 @@ export default function Producto({item, color}) {
 
     return (
       <div style={{backgroundColor: color, marginTop: "5px"}}>
-          <h1 style={{ color: "red" }}>{item.name}</h1> 
           <ItemCount 
             contador={contador}
             handleAumentar = {handleAumentar}
             handleRestar = {handleRestar}
             onAdd={onAdd}
             />
-          <p>Precio: ${item.precio}</p>
-          
-          
       </div>        
   )
 }

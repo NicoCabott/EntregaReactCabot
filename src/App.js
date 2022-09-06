@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Productos from './components/Producto';
 import CartWidget from './components/CartWidget';
 import Promesas from './test/Promesas';
-import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 
 
 
@@ -17,11 +17,13 @@ function App() {
   return (
     <div className='App'>
       
-      <ItemListContainer />
-      <NavBar />
       
+      <ItemDetailContainer />
+      {/* <NavBar /> */}
+      {/* <ItemListContainer /> */}
+      {/* <Producto /> */}
     
-      <Footer />
+      {/* <Footer /> */}
         
       </div>
       

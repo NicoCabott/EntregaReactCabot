@@ -6,7 +6,7 @@ export default function Item({producto}) {
       <div>
       <h3>{producto.name}</h3>
       <p>Precio: {producto.precio}</p>
-      <button>Comprar</button>
+      <Producto />
       </div>
       
   )
